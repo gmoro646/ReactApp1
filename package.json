@@ -2,7 +2,7 @@
   "name": "asg_1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gmoro646.github.io/ReactApp1",
+  "homepage": "gmoro646.github.io/ReactApp1",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
