@@ -2,8 +2,10 @@
   "name": "asg_1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "gmoro646.github.io/ReactAsg1",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "google-map-react": "^1.1.2",
     "google-maps-react": "^2.0.2",
     "jszip": "^3.2.0",
@@ -16,6 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

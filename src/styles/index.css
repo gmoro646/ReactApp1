@@ -181,24 +181,7 @@ legend {
   display: inline-block;
 }
 
-.close:before {
-  content: 'X';
 
-
-}
-.close:hover{
-  opacity: 1;
-  visibility: visible;
-  height: 20px;
-  color:red;
-
-}
-.close {
-  opacity: 0.2;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 .pin {
  
   position:absolute;
