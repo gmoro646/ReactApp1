@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "gmoro646.github.io/ReactApp1/precache-manifest.e206dc67655627b2cc678284a2e915be.js"
+  "/ReactApp1/precache-manifest.70598890ce3ea625d2ce38d0e0d6fac4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("gmoro646.github.io/ReactApp1/index.html", {
+workbox.routing.registerNavigationRoute("/ReactApp1/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
